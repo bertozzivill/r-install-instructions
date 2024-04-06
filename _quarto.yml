@@ -6,7 +6,7 @@ website:
   title: "AMMnet Kigali 2024"
   navbar:
     left:
-      - href: Getting_started_with_R.qmd
+      - href: r_installation_all.qmd
         text: R Installation Instructions
 
 format:
