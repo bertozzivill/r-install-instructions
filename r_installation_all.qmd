@@ -15,7 +15,7 @@ execute:
 
 # Home
 
-We're so excited to have you join us in Kigali for AMMNet 2024! If you are registered to attend one of the training sessions listed below, you are required to have R and RStudio downloaded and installed on your laptops before you arrive at the training. Because this software can take some time to download and we cannot guarantee the strength of conference WiFi, we **strongly** recommend that you complete the installation before arriving at the conference. Detailed instructions on installing R, RStudio, and any required packages can be found below. 
+We're so excited to have you join us in Kigali for AMMNet 2024! If you are registered to attend one of the training sessions listed below, you are required to have R and RStudio downloaded and installed on your laptops before you arrive at the training. Because this software can take some time to download and we cannot guarantee the strength of conference WiFi, we **strongly** recommend that you complete the installation before arriving at the conference. If you have not installed the software before you arrive at the training, we cannot guarantee that there will be time or capacity to help you install it. Detailed instructions on installing R, RStudio, and any required packages can be found below. 
 
 If you run into any difficulties, please reach out to [info@ammnet.org](mailto:info@ammnet.org?subject=R Help) for assistance. There will also be a technical helpdesk avaliable at the conference, but again, we will not be able to guarantee download speeds at that time.
 
