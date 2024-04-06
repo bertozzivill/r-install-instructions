@@ -1,17 +1,80 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "test-quarto-site",
+    "objectID": "rstudio.html",
+    "href": "rstudio.html",
+    "title": "Installing RStudio",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Rstudio is an integrated development environment (IDE) for R, providing a user-friendly interface for R programming.\n\n\n\n\n\n\nNote\n\n\n\nRStudio is moving away from its R-exclusive focus and becoming Posit in October 2022 to enable broader data science, scientific research, and technical communication functionalities and, in particular, to integrate Python users.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIn order for RStudio desktop to work with R you must have installed R on your computer, see Section A.1. RStudio does not include R when you download and install it.\n\n\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD RStudio\nYou can download R from the RStudio website. There are different RStudio products available, but the free Desktop version offers all necessary features for your analyses.\n\n\n\nCHOOSE YOUR OPERATION SYSTEM\nDownload the RStudio Desktop installer compatible with your operating system.\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the setup.\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation process.\n\n\n\nCONFIGURATION\nAfter installing RStudio, open the application. Navigate to Tools &gt; Global options to set your preferences.\n\n\n\nUnder the General options and the Basic tab:\nWorkspace\nUncheck Restore .RData into workspace at startup\nEnsure that Never is selected for Save workspace to .RData on exit.\nHistory\nUncheck Always save history (even when not saving .RData)\nUncheck Remove duplicate entries in history"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "rstudio.html#install-and-setup-rstudio-desktop",
+    "href": "rstudio.html#install-and-setup-rstudio-desktop",
+    "title": "Installing RStudio",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Rstudio is an integrated development environment (IDE) for R, providing a user-friendly interface for R programming.\n\n\n\n\n\n\nNote\n\n\n\nRStudio is moving away from its R-exclusive focus and becoming Posit in October 2022 to enable broader data science, scientific research, and technical communication functionalities and, in particular, to integrate Python users.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIn order for RStudio desktop to work with R you must have installed R on your computer, see Section A.1. RStudio does not include R when you download and install it.\n\n\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD RStudio\nYou can download R from the RStudio website. There are different RStudio products available, but the free Desktop version offers all necessary features for your analyses.\n\n\n\nCHOOSE YOUR OPERATION SYSTEM\nDownload the RStudio Desktop installer compatible with your operating system.\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the setup.\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation process.\n\n\n\nCONFIGURATION\nAfter installing RStudio, open the application. Navigate to Tools &gt; Global options to set your preferences.\n\n\n\nUnder the General options and the Basic tab:\nWorkspace\nUncheck Restore .RData into workspace at startup\nEnsure that Never is selected for Save workspace to .RData on exit.\nHistory\nUncheck Always save history (even when not saving .RData)\nUncheck Remove duplicate entries in history"
+  },
+  {
+    "objectID": "install_r.html",
+    "href": "install_r.html",
+    "title": "Installing R",
+    "section": "",
+    "text": "R is a powerful programming language for statistical computing and graphics. It is one of main programming language used for data science (with other programming languages such as Python and Julia). The following instructions will show you how to install R on either a Windows or a Mac computer."
+  },
+  {
+    "objectID": "install_r.html#installing-r-on-windows",
+    "href": "install_r.html#installing-r-on-windows",
+    "title": "Installing R",
+    "section": "Installing R on Windows",
+    "text": "Installing R on Windows\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nCHOOSE YOUR OPERATION SYSTEM\nOnce on the CRAN page, select your operating system: Linux, macOS, or Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDOWNLOAD THE INSTALLER\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation."
+  },
+  {
+    "objectID": "r_installation_all.html",
+    "href": "r_installation_all.html",
+    "title": "Installing R and RStudio",
+    "section": "",
+    "text": "We’re so excited to have you join us in Kigali for AMMNet 2024! If you are registered to attend one of the training sessions listed below, you are required to have R and RStudio downloaded and installed on your laptops before you arrive at the training. Because this software can take some time to download and we cannot guarantee the strength of conference WiFi, we strongly recommend that you complete the installation before arriving at the conference. Detailed instructions on installing R, RStudio, and any required packages can be found below.\nIf you run into any difficulties, please reach out to info@ammnet.org for assistance. There will also be a technical helpdesk avaliable at the conference, but again, we will not be able to guarantee download speeds at that time.\n\n\n\n\n\n\nTrainings with R and RStudio Requirements\n\n\n\nBuilding Web Interfaces for Effective Model Communication, Exploration and Debugging\nPrinciples and Practice of Data Visualization with R\n\n\nThe materials on this page were developed and shared with permission by Gloria Shirima and Amelia Bertozzi-Villa."
+  },
+  {
+    "objectID": "r_installation_all.html#on-windows",
+    "href": "r_installation_all.html#on-windows",
+    "title": "Installing R and RStudio",
+    "section": "On Windows",
+    "text": "On Windows\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDownload R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nChoose Your Operating System\nOnce on the CRAN page, select the operating system Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDownload the Installer\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRun the Installer\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nComplete Installation\nFollow the instruction in the installation wizard to complete the installation."
+  },
+  {
+    "objectID": "r_installation_all.html#on-macos",
+    "href": "r_installation_all.html#on-macos",
+    "title": "Installing R and RStudio",
+    "section": "On MacOS",
+    "text": "On MacOS\n\nStep 1Step 2Step 3Step 4Step 5\n\n\nDownload R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nChoose Your Operating System\nOnce on the CRAN page, select the operating system macOS. \n\n\n\nYou will be directed to a page that looks like this:\n\n\nYou must now select one of two binary packages to install, depending on the age of your computer. Go to the Apple icon in the top left corner of your Mac and select “About This Mac”.\n\n\nWhen you click, a small window will appear giving you information about your computer. Notice what is written next to the “Chip:” label:\n\n \nIf the chip is M1, M2, or M3, click the arm64.pkg installer on the R installation page. If the chip does not say M1, M2, or M3, clicke the x86_64.pkg installer.\n\n\nDownload the Installer\nDownload the R installer (~100 MB). When it has installed, click on it in your “Downloads” folder.\n\n\n\n\nRun the Installer\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard. When the installation is complete, you may be prompted to delete the installer file. If you are prompted, press “Yes”. If you are not prompted, you can delete the installer .pkg file manually."
+  },
+  {
+    "objectID": "r_installation_all.html#using-the-graphic-interface",
+    "href": "r_installation_all.html#using-the-graphic-interface",
+    "title": "Installing R and RStudio",
+    "section": "Using the Graphic Interface",
+    "text": "Using the Graphic Interface\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer.\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
+  },
+  {
+    "objectID": "r_installation_all.html#using-the-rstudio-console",
+    "href": "r_installation_all.html#using-the-rstudio-console",
+    "title": "Installing R and RStudio",
+    "section": "Using the RStudio Console",
+    "text": "Using the RStudio Console\n\nStep 1Step 2Step 3Step 4\n\n\nOpen RStudio on your computer.\n\n\nIn the “Console” tab (at the bottom left of the screen if using the default settings), type install.packages(\"PACKAGE_NAME\"), with the name of the package instead of the letters “PACKAGE_NAME”. Don’t forget the quotation marks! For example, to install the tidyverse package, type install.packages(\"tidyverse\"):\n\n\n\nYou should see a series of text scrolling down the screen (there might be a lot!), followed by a message saying that “the downloaded binary packages are in [location]”.\n\n\n\n\n\n\nTip\n\n\n\nThere should not be any error messages in this process! If you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support.\n\n\n\n\n\nTest the successful installation by “loading” the package into the console.\nType the words find.package(\"PACKAGE_NAME\") into the console. If the package installed successfully, you should see a filepath to the location of the package. If the package didn’t install successfully, you’ll see an error message. Below, you can see an example with a successfully installed package (tidyverse) and a package that has not been installed (fake_package).\n\n\n\n\n\n\nTip\n\n\n\nIf you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support."
+  },
+  {
+    "objectID": "r_packages.html",
+    "href": "r_packages.html",
+    "title": "Installing R Packages",
+    "section": "",
+    "text": "Note\n\n\n\nA R package is a collection of functions, data, and compiled code in a well-defined format, created to add specific functionality to R.\nThere are 10,000+ user contributed packages and growing.\nThere is a set of standard (or base) packages which is considered part of the R source code and automatically available as part of your R installation. Base packages contain the basic functions that allow R to work, and enable standard statistical and graphical functions on data sets.\n\n\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
+  },
+  {
+    "objectID": "r_packages.html#installing-r-packages",
+    "href": "r_packages.html#installing-r-packages",
+    "title": "Installing R Packages",
+    "section": "",
+    "text": "Note\n\n\n\nA R package is a collection of functions, data, and compiled code in a well-defined format, created to add specific functionality to R.\nThere are 10,000+ user contributed packages and growing.\nThere is a set of standard (or base) packages which is considered part of the R source code and automatically available as part of your R installation. Base packages contain the basic functions that allow R to work, and enable standard statistical and graphical functions on data sets.\n\n\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
   },
   {
     "objectID": "training_information.html",
@@ -47,166 +110,5 @@
     "title": "Training Information",
     "section": "",
     "text": "Fill out the online post-workshop questionnaire (link to be provided after the workshop)"
-  },
-  {
-    "objectID": "Getting_started_with_R.html",
-    "href": "Getting_started_with_R.html",
-    "title": "Home",
-    "section": "",
-    "text": "We’re so excited to have you join us in Kigali for AMMNet 2024! If you are registered to attend one of the training sessions listed below, you are required to have R and RStudio downloaded and installed on your laptops before you arrive at the training. Because this software can take some time to download and we cannot guarantee the strength of conference WiFi, we strongly recommend that you complete the installation before arriving at the conference. Detailed instructions on installing R, RStudio, and any required packages can be found below.\nIf you run into any difficulties, please reach out to info@ammnet.org for assistance. There will also be a technical helpdesk avaliable at the conference, but again, we will not be able to guarantee download speeds at that time.\nThe materials on this page were developed and shared with permission by Gloria Shirima and Amelia Bertozzi-Villa."
-  },
-  {
-    "objectID": "Getting_started_with_R.html#installing-r",
-    "href": "Getting_started_with_R.html#installing-r",
-    "title": "R and RStudio Installation Guide",
-    "section": "",
-    "text": "R is a powerfull programming language for statistical computing and graphics. It is one of main programming language used for data science (with other programming languages such as Python and Julia).\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nCHOOSE YOUR OPERATION SYSTEM\nOnce on the CRAN page, select your operating system: Linux, macOS, or Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDOWNLOAD THE INSTALLER\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation."
-  },
-  {
-    "objectID": "Getting_started_with_R.html#install-and-setup-rstudio-desktop",
-    "href": "Getting_started_with_R.html#install-and-setup-rstudio-desktop",
-    "title": "AMMnet Kigali 2024",
-    "section": "Install and setup RStudio Desktop",
-    "text": "Install and setup RStudio Desktop\nRstudio is an integrated development environment (IDE) for R, providing a user-friendly interface for R programming.\n\n\n\n\n\n\nNote\n\n\n\nRStudio is moving away from its R-exclusive focus and becoming Posit in October 2022 to enable broader data science, scientific research, and technical communication functionalities and, in particular, to integrate Python users.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIn order for RStudio desktop to work with R you must have installed R on your computer, see Section A.1. RStudio does not include R when you download and install it.\n\n\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD RStudio\nYou can download R from the RStudio website. There are different RStudio products available, but the free Desktop version offers all necessary features for your analyses.\n\n\n\nCHOOSE YOUR OPERATION SYSTEM\nDownload the RStudio Desktop installer compatible with your operating system.\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the setup.\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation process.\n\n\n\nCONFIGURATION\nAfter installing RStudio, open the application. Navigate to Tools &gt; Global options to set your preferences.\n\n\n\nUnder the General options and the Basic tab:\nWorkspace\nUncheck Restore .RData into workspace at startup\nEnsure that Never is selected for Save workspace to .RData on exit.\nHistory\nUncheck Always save history (even when not saving .RData)\nUncheck Remove duplicate entries in history"
-  },
-  {
-    "objectID": "Getting_started_with_R.html#installing-r-packages",
-    "href": "Getting_started_with_R.html#installing-r-packages",
-    "title": "Installing R",
-    "section": "",
-    "text": "Note\n\n\n\nA R package is a collection of functions, data, and compiled code in a well-defined format, created to add specific functionality to R.\nThere are 10,000+ user contributed packages and growing.\nThere is a set of standard (or base) packages which is considered part of the R source code and automatically available as part of your R installation. Base packages contain the basic functions that allow R to work, and enable standard statistical and graphical functions on data sets.\n\n\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
-  },
-  {
-    "objectID": "rstudio.html",
-    "href": "rstudio.html",
-    "title": "Installing RStudio",
-    "section": "",
-    "text": "Rstudio is an integrated development environment (IDE) for R, providing a user-friendly interface for R programming.\n\n\n\n\n\n\nNote\n\n\n\nRStudio is moving away from its R-exclusive focus and becoming Posit in October 2022 to enable broader data science, scientific research, and technical communication functionalities and, in particular, to integrate Python users.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIn order for RStudio desktop to work with R you must have installed R on your computer, see Section A.1. RStudio does not include R when you download and install it.\n\n\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD RStudio\nYou can download R from the RStudio website. There are different RStudio products available, but the free Desktop version offers all necessary features for your analyses.\n\n\n\nCHOOSE YOUR OPERATION SYSTEM\nDownload the RStudio Desktop installer compatible with your operating system.\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the setup.\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation process.\n\n\n\nCONFIGURATION\nAfter installing RStudio, open the application. Navigate to Tools &gt; Global options to set your preferences.\n\n\n\nUnder the General options and the Basic tab:\nWorkspace\nUncheck Restore .RData into workspace at startup\nEnsure that Never is selected for Save workspace to .RData on exit.\nHistory\nUncheck Always save history (even when not saving .RData)\nUncheck Remove duplicate entries in history"
-  },
-  {
-    "objectID": "rstudio.html#install-and-setup-rstudio-desktop",
-    "href": "rstudio.html#install-and-setup-rstudio-desktop",
-    "title": "Installing RStudio",
-    "section": "",
-    "text": "Rstudio is an integrated development environment (IDE) for R, providing a user-friendly interface for R programming.\n\n\n\n\n\n\nNote\n\n\n\nRStudio is moving away from its R-exclusive focus and becoming Posit in October 2022 to enable broader data science, scientific research, and technical communication functionalities and, in particular, to integrate Python users.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIn order for RStudio desktop to work with R you must have installed R on your computer, see Section A.1. RStudio does not include R when you download and install it.\n\n\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD RStudio\nYou can download R from the RStudio website. There are different RStudio products available, but the free Desktop version offers all necessary features for your analyses.\n\n\n\nCHOOSE YOUR OPERATION SYSTEM\nDownload the RStudio Desktop installer compatible with your operating system.\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the setup.\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation process.\n\n\n\nCONFIGURATION\nAfter installing RStudio, open the application. Navigate to Tools &gt; Global options to set your preferences.\n\n\n\nUnder the General options and the Basic tab:\nWorkspace\nUncheck Restore .RData into workspace at startup\nEnsure that Never is selected for Save workspace to .RData on exit.\nHistory\nUncheck Always save history (even when not saving .RData)\nUncheck Remove duplicate entries in history"
-  },
-  {
-    "objectID": "r_packages.html",
-    "href": "r_packages.html",
-    "title": "Installing R Packages",
-    "section": "",
-    "text": "Note\n\n\n\nA R package is a collection of functions, data, and compiled code in a well-defined format, created to add specific functionality to R.\nThere are 10,000+ user contributed packages and growing.\nThere is a set of standard (or base) packages which is considered part of the R source code and automatically available as part of your R installation. Base packages contain the basic functions that allow R to work, and enable standard statistical and graphical functions on data sets.\n\n\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
-  },
-  {
-    "objectID": "r_packages.html#installing-r-packages",
-    "href": "r_packages.html#installing-r-packages",
-    "title": "Installing R Packages",
-    "section": "",
-    "text": "Note\n\n\n\nA R package is a collection of functions, data, and compiled code in a well-defined format, created to add specific functionality to R.\nThere are 10,000+ user contributed packages and growing.\nThere is a set of standard (or base) packages which is considered part of the R source code and automatically available as part of your R installation. Base packages contain the basic functions that allow R to work, and enable standard statistical and graphical functions on data sets.\n\n\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
-  },
-  {
-    "objectID": "install_r.html",
-    "href": "install_r.html",
-    "title": "Installing R",
-    "section": "",
-    "text": "R is a powerful programming language for statistical computing and graphics. It is one of main programming language used for data science (with other programming languages such as Python and Julia). The following instructions will show you how to install R on either a Windows or a Mac computer."
-  },
-  {
-    "objectID": "install_r.html#installing-r",
-    "href": "install_r.html#installing-r",
-    "title": "Installing R",
-    "section": "",
-    "text": "R is a powerfull programming language for statistical computing and graphics. It is one of main programming language used for data science (with other programming languages such as Python and Julia).\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nCHOOSE YOUR OPERATION SYSTEM\nOnce on the CRAN page, select your operating system: Linux, macOS, or Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDOWNLOAD THE INSTALLER\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation."
-  },
-  {
-    "objectID": "install_r.html#installing-r-on-windows",
-    "href": "install_r.html#installing-r-on-windows",
-    "title": "Installing R",
-    "section": "Installing R on Windows",
-    "text": "Installing R on Windows\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nCHOOSE YOUR OPERATION SYSTEM\nOnce on the CRAN page, select your operating system: Linux, macOS, or Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDOWNLOAD THE INSTALLER\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation."
-  },
-  {
-    "objectID": "Getting_started_with_R.html#installing-r-on-windows",
-    "href": "Getting_started_with_R.html#installing-r-on-windows",
-    "title": "Installing R",
-    "section": "",
-    "text": "Step 1Step 2Step 3Step 4Step 5Step 6\n\n\nDOWNLOAD R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nCHOOSE YOUR OPERATION SYSTEM\nOnce on the CRAN page, select the operating system Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDOWNLOAD THE INSTALLER\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation."
-  },
-  {
-    "objectID": "Getting_started_with_R.html#installing-r-on-macos",
-    "href": "Getting_started_with_R.html#installing-r-on-macos",
-    "title": "Installing R",
-    "section": "",
-    "text": "Step 1Step 2Step 3Step 4Step 5\n\n\nDOWNLOAD R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nCHOOSE YOUR OPERATION SYSTEM\nOnce on the CRAN page, select the operating system macOS. \n\n\n\nYou will be directed to a page that looks like this:\n\n\nYou must now select one of two binary packages to install, depending on the age of your computer. Go to the Apple icon in the top left corner of your Mac and select “About This Mac”.\n\n\nWhen you click, a small window will appear giving you information about your computer. Notice what is written next to the “Chip:” label:\n\n \nIf the chip is M1, M2, or M3, click the arm64.pkg installer on the R installation page. If the chip does not say M1, M2, or M3, clicke the x86_64.pkg installer.\n\n\nDOWNLOAD THE INSTALLER\nDownload the R installer (~100 MB). When it has installed, click on it in your “Downloads” folder.\n\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard. When the installation is complete, you may be prompted to delete the installer file. If you are prompted, press “Yes”. If you are not prompted, you can delete the installer .pkg file manually."
-  },
-  {
-    "objectID": "Getting_started_with_R.html#installing-rstudio-desktop",
-    "href": "Getting_started_with_R.html#installing-rstudio-desktop",
-    "title": "Installing R",
-    "section": "",
-    "text": "Rstudio is an integrated development environment (IDE) for R, providing a user-friendly interface for R programming. The installation process is very similar on both Windows and Mac operating systems, so a single set of instructions is provided.\n\n\n\n\n\n\nNote\n\n\n\nRStudio moved away from its R-exclusive focus and became Posit in October 2022 to enable broader data science, scientific research, and technical communication functionalities and, in particular, to integrate Python users.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nIn order for RStudio desktop to work with R you must have installed R on your computer, see Section A.1. RStudio does not include R when you download and install it.\n\n\n\nStep 1Step 2Step 3Step 4Step 5\n\n\nDOWNLOAD RStudio\nYou can download R from the RStudio website. Scroll to the bottom of the page, where you’ll see a button to install R on the left, and a button to install RStudio on the right. You’ve already installed R, so ignore the left hand side and click on the “Download and Install RStudio Desktop” button on the right. The RStudio website should automatically detect the operating system you’re using and prompt you to download the correct one.\nThe file will be ~400MB and may take a while to download.\n\n\n\nRUN THE INSTALLER\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the setup.\n\n\n\nCOMPLETE INSTALLATION\nFollow the instruction in the installation wizard to complete the installation process.\n\n\n\nCONFIGURATION\nAfter installing RStudio, open the application. Navigate to Tools &gt; Global options to set your preferences.\n\n\n\nUnder the General options and the Basic tab:\nWorkspace\nUncheck Restore .RData into workspace at startup\nEnsure that Never is selected for Save workspace to .RData on exit.\nHistory\nUncheck Always save history (even when not saving .RData)\nUncheck Remove duplicate entries in history"
-  },
-  {
-    "objectID": "Getting_started_with_R.html#using-the-graphic-interface",
-    "href": "Getting_started_with_R.html#using-the-graphic-interface",
-    "title": "Home",
-    "section": "Using the Graphic Interface",
-    "text": "Using the Graphic Interface\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer.\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
-  },
-  {
-    "objectID": "Getting_started_with_R.html#using-the-rstudio-console",
-    "href": "Getting_started_with_R.html#using-the-rstudio-console",
-    "title": "Home",
-    "section": "Using the RStudio Console",
-    "text": "Using the RStudio Console\n\nStep 1Step 2Step 3Step 4\n\n\nOpen RStudio on your computer.\n\n\nIn the “Console” tab (at the bottom left of the screen if using the default settings), type install.packages(\"PACKAGE_NAME\"), with the name of the package instead of the letters “PACKAGE_NAME”. Don’t forget the quotation marks! For example, to install the tidyverse package, type install.packages(\"tidyverse\"):\n\n\n\nYou should see a series of text scrolling down the screen (there might be a lot!), followed by a message saying that “the downloaded binary packages are in [location]”.\n\n\n\n\n\n\nTip\n\n\n\nThere should not be any error messages in this process! If you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support.\n\n\n\n\n\nTest the successful installation by “loading” the package into the console.\nType the words find.package(\"PACKAGE_NAME\") into the console. If the package installed successfully, you should see a filepath to the location of the package. If the package didn’t install successfully, you’ll see an error message. Below, you can see an example with a successfully installed package (tidyverse) and a package that has not been installed (fake_package).\n\n\n\n\n\n\nTip\n\n\n\nIf you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support."
-  },
-  {
-    "objectID": "Getting_started_with_R.html#on-windows",
-    "href": "Getting_started_with_R.html#on-windows",
-    "title": "Home",
-    "section": "On Windows",
-    "text": "On Windows\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDownload R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nChoose Your Operating System\nOnce on the CRAN page, select the operating system Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDownload the Installer\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRun the Installer\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nComplete Installation\nFollow the instruction in the installation wizard to complete the installation."
-  },
-  {
-    "objectID": "Getting_started_with_R.html#on-macos",
-    "href": "Getting_started_with_R.html#on-macos",
-    "title": "Home",
-    "section": "On MacOS",
-    "text": "On MacOS\n\nStep 1Step 2Step 3Step 4Step 5\n\n\nDownload R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nChoose Your Operating System\nOnce on the CRAN page, select the operating system macOS. \n\n\n\nYou will be directed to a page that looks like this:\n\n\nYou must now select one of two binary packages to install, depending on the age of your computer. Go to the Apple icon in the top left corner of your Mac and select “About This Mac”.\n\n\nWhen you click, a small window will appear giving you information about your computer. Notice what is written next to the “Chip:” label:\n\n \nIf the chip is M1, M2, or M3, click the arm64.pkg installer on the R installation page. If the chip does not say M1, M2, or M3, clicke the x86_64.pkg installer.\n\n\nDownload the Installer\nDownload the R installer (~100 MB). When it has installed, click on it in your “Downloads” folder.\n\n\n\n\nRun the Installer\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard. When the installation is complete, you may be prompted to delete the installer file. If you are prompted, press “Yes”. If you are not prompted, you can delete the installer .pkg file manually."
-  },
-  {
-    "objectID": "r_installation_all.html",
-    "href": "r_installation_all.html",
-    "title": "Home",
-    "section": "",
-    "text": "We’re so excited to have you join us in Kigali for AMMNet 2024! If you are registered to attend one of the training sessions listed below, you are required to have R and RStudio downloaded and installed on your laptops before you arrive at the training. Because this software can take some time to download and we cannot guarantee the strength of conference WiFi, we strongly recommend that you complete the installation before arriving at the conference. Detailed instructions on installing R, RStudio, and any required packages can be found below.\nIf you run into any difficulties, please reach out to info@ammnet.org for assistance. There will also be a technical helpdesk avaliable at the conference, but again, we will not be able to guarantee download speeds at that time.\n\n\n\n\n\n\nTrainings with R and RStudio Requirements\n\n\n\nBuilding Web Interfaces for Effective Model Communication, Exploration and Debugging\nPrinciples and Practice of Data Visualization with R\n\n\nThe materials on this page were developed and shared with permission by Gloria Shirima and Amelia Bertozzi-Villa."
-  },
-  {
-    "objectID": "r_installation_all.html#on-windows",
-    "href": "r_installation_all.html#on-windows",
-    "title": "Home",
-    "section": "On Windows",
-    "text": "On Windows\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDownload R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nChoose Your Operating System\nOnce on the CRAN page, select the operating system Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDownload the Installer\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRun the Installer\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nComplete Installation\nFollow the instruction in the installation wizard to complete the installation."
-  },
-  {
-    "objectID": "r_installation_all.html#on-macos",
-    "href": "r_installation_all.html#on-macos",
-    "title": "Home",
-    "section": "On MacOS",
-    "text": "On MacOS\n\nStep 1Step 2Step 3Step 4Step 5\n\n\nDownload R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nChoose Your Operating System\nOnce on the CRAN page, select the operating system macOS. \n\n\n\nYou will be directed to a page that looks like this:\n\n\nYou must now select one of two binary packages to install, depending on the age of your computer. Go to the Apple icon in the top left corner of your Mac and select “About This Mac”.\n\n\nWhen you click, a small window will appear giving you information about your computer. Notice what is written next to the “Chip:” label:\n\n \nIf the chip is M1, M2, or M3, click the arm64.pkg installer on the R installation page. If the chip does not say M1, M2, or M3, clicke the x86_64.pkg installer.\n\n\nDownload the Installer\nDownload the R installer (~100 MB). When it has installed, click on it in your “Downloads” folder.\n\n\n\n\nRun the Installer\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard. When the installation is complete, you may be prompted to delete the installer file. If you are prompted, press “Yes”. If you are not prompted, you can delete the installer .pkg file manually."
-  },
-  {
-    "objectID": "r_installation_all.html#using-the-graphic-interface",
-    "href": "r_installation_all.html#using-the-graphic-interface",
-    "title": "Home",
-    "section": "Using the Graphic Interface",
-    "text": "Using the Graphic Interface\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer.\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
-  },
-  {
-    "objectID": "r_installation_all.html#using-the-rstudio-console",
-    "href": "r_installation_all.html#using-the-rstudio-console",
-    "title": "Home",
-    "section": "Using the RStudio Console",
-    "text": "Using the RStudio Console\n\nStep 1Step 2Step 3Step 4\n\n\nOpen RStudio on your computer.\n\n\nIn the “Console” tab (at the bottom left of the screen if using the default settings), type install.packages(\"PACKAGE_NAME\"), with the name of the package instead of the letters “PACKAGE_NAME”. Don’t forget the quotation marks! For example, to install the tidyverse package, type install.packages(\"tidyverse\"):\n\n\n\nYou should see a series of text scrolling down the screen (there might be a lot!), followed by a message saying that “the downloaded binary packages are in [location]”.\n\n\n\n\n\n\nTip\n\n\n\nThere should not be any error messages in this process! If you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support.\n\n\n\n\n\nTest the successful installation by “loading” the package into the console.\nType the words find.package(\"PACKAGE_NAME\") into the console. If the package installed successfully, you should see a filepath to the location of the package. If the package didn’t install successfully, you’ll see an error message. Below, you can see an example with a successfully installed package (tidyverse) and a package that has not been installed (fake_package).\n\n\n\n\n\n\nTip\n\n\n\nIf you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support."
   }
 ]
