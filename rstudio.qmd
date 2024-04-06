@@ -1,0 +1,90 @@
+---
+title: "Installing RStudio"
+format:
+  html:
+    smooth-scroll: true
+    toc: true
+    toc-location: left
+    number-sections: false
+    number-depth: 2
+    css: styles.css
+execute:
+  echo: true
+  warning: false
+---
+
+## Install and Setup RStudio Desktop
+
+**Rstudio** is an integrated development environment (IDE) for R, providing a user-friendly interface for R programming.
+
+::: callout-tip
+### Note
+
+RStudio is moving away from its R-exclusive focus and becoming Posit in October 2022 to enable broader data science, scientific research, and technical communication functionalities and, in particular, to integrate Python users.
+:::
+
+::: callout-tip
+### Important
+
+In order for RStudio desktop to work with R you must have installed R on your computer, see Section A.1. RStudio does not include R when you download and install it.
+:::
+
+::: panel-tabset
+### Step 1
+
+**DOWNLOAD RStudio**
+
+You can download R from the [RStudio website](https://posit.co/download/rstudio-desktop/). There are different RStudio products available, but the free Desktop version offers all necessary features for your analyses.
+
+![](images/pic21.png)
+
+### Step 2
+
+**CHOOSE YOUR OPERATION SYSTEM**
+
+Download the RStudio Desktop installer compatible with your operating system.
+
+![](images/pic22.png)
+
+### Step 3
+
+**RUN THE INSTALLER**
+
+Locate the downloaded file in your computer's Downloads folder and double-click to run the setup.
+
+![](images/pic23.png)
+
+### Step 4
+
+**COMPLETE INSTALLATION**
+
+Follow the instruction in the installation wizard to complete the installation process.
+
+![](images/pic24.png)
+
+### Step 5
+
+**CONFIGURATION**
+
+After installing RStudio, open the application. Navigate to Tools \> Global options to set your preferences.
+
+![](images/pic25.png)
+
+### Step 6
+
+Under the **General** options and the **Basic** tab:
+
+**Workspace**
+
+Uncheck Restore .RData into workspace at startup
+
+Ensure that Never is selected for Save workspace to .RData on exit.
+
+**History**
+
+Uncheck Always save history (even when not saving .RData)
+
+Uncheck Remove duplicate entries in history
+
+![](images/pic26.png)
+:::

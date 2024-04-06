@@ -1,0 +1,84 @@
+---
+title: "Installing R"
+format:
+  html:
+    smooth-scroll: true
+    toc: true
+    toc-location: left
+    number-sections: false
+    number-depth: 2
+    css: styles.css
+execute:
+  echo: true
+  warning: false
+---
+
+
+
+**R** is a powerful programming language for statistical computing and graphics. It is one of main programming language used for data science (with other programming languages such as Python and Julia). The following instructions will show you how to install R on either a Windows or a Mac computer.
+
+## Installing R on Windows
+
+::: panel-tabset
+### Step 1
+
+**DOWNLOAD R**
+
+Visit the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/mirrors.html) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. {{< pagebreak >}}
+
+![](images/pic1.png) Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.
+
+::: callout-tip
+Selecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.
+:::
+
+For instance, when downloading R from Rwanda, you can select the mirror from [South Africa](https://cran.mirror.ac.za/).
+
+### Step 2
+
+**CHOOSE YOUR OPERATION SYSTEM**
+
+Once on the CRAN page, select your operating system: Linux, macOS, or Windows. {{< pagebreak >}}
+
+![](images/pic2.png)
+
+### Step 3
+
+Select binaries for base distribution
+
+{{< pagebreak >}}
+
+![](images/pic3.png)
+
+### Step 4
+
+**DOWNLOAD THE INSTALLER**
+
+Download the R installer (\< 80 MB)
+
+{{< pagebreak >}}
+
+![](images/pic4.png)
+
+### Step 5
+
+**RUN THE INSTALLER**
+
+Locate the downloaded file in your computer's Downloads folder and double-click to run the installation wizard.
+
+{{< pagebreak >}}
+
+![](images/pic5.png)
+
+### Step 6
+
+**COMPLETE INSTALLATION**
+
+Follow the instruction in the installation wizard to complete the installation.
+
+{{< pagebreak >}}
+
+![](images/pic6.png)
+:::
+
+{{< pagebreak >}}

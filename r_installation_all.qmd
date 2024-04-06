@@ -1,0 +1,304 @@
+---
+title: " "
+format:
+  html:
+    smooth-scroll: true
+    toc: true
+    toc-location: left
+    number-sections: false
+    number-depth: 2
+    css: styles.css
+execute:
+  echo: true
+  warning: false
+---
+
+# Home
+
+We're so excited to have you join us in Kigali for AMMNet 2024! If you are registered to attend one of the training sessions listed below, you are required to have R and RStudio downloaded and installed on your laptops before you arrive at the training. Because this software can take some time to download and we cannot guarantee the strength of conference WiFi, we **strongly** recommend that you complete the installation before arriving at the conference. Detailed instructions on installing R, RStudio, and any required packages can be found below. 
+
+If you run into any difficulties, please reach out to [info@ammnet.org](mailto:info@ammnet.org?subject=R Help) for assistance. There will also be a technical helpdesk avaliable at the conference, but again, we will not be able to guarantee download speeds at that time.
+
+::: {.callout-tip}
+## **Trainings with R and RStudio Requirements**
+
+Building Web Interfaces for Effective Model Communication, Exploration and Debugging
+
+Principles and Practice of Data Visualization with R
+:::
+
+The materials on this page were developed and shared with permission by Gloria Shirima and Amelia Bertozzi-Villa.
+
+
+# Step 1: Installing R
+
+**R** is a powerful programming language for statistical computing and graphics. It is one of main programming language used for data science (with other programming languages such as Python and Julia). The following instructions will show you how to install R on either a Windows or a Mac computer.
+
+## On Windows
+
+::: panel-tabset
+### Step 1
+
+**Download R**
+
+Visit the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/mirrors.html) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. {{< pagebreak >}}
+
+![](images/pic1.png) Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.
+
+::: callout-tip
+Selecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.
+:::
+
+For instance, when downloading R from Rwanda, you can select the mirror from [South Africa](https://cran.mirror.ac.za/).
+
+### Step 2
+
+**Choose Your Operating System**
+
+Once on the CRAN page, select the operating system Windows. {{< pagebreak >}}
+
+![](images/pic2.png)
+
+### Step 3
+
+Select binaries for base distribution
+
+{{< pagebreak >}}
+
+![](images/pic3.png)
+
+### Step 4
+
+**Download the Installer**
+
+Download the R installer (\< 80 MB)
+
+{{< pagebreak >}}
+
+![](images/pic4.png)
+
+### Step 5
+
+**Run the Installer**
+
+Locate the downloaded file in your computer's Downloads folder and double-click to run the installation wizard.
+
+{{< pagebreak >}}
+
+![](images/pic5.png)
+
+### Step 6
+
+**Complete Installation**
+
+Follow the instruction in the installation wizard to complete the installation.
+
+{{< pagebreak >}}
+
+![](images/pic6.png)
+:::
+
+{{< pagebreak >}}
+
+## On MacOS
+
+::: panel-tabset
+### Step 1
+
+**Download R**
+
+Visit the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/mirrors.html) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. {{< pagebreak >}}
+
+![](images/pic1.png) Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.
+
+::: callout-tip
+Selecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.
+:::
+
+For instance, when downloading R from Rwanda, you can select the mirror from [South Africa](https://cran.mirror.ac.za/).
+
+### Step 2
+
+**Choose Your Operating System**
+
+Once on the CRAN page, select the operating system macOS. {{< pagebreak >}}
+
+![](images/macos_select_os.png)
+
+### Step 3
+
+You will be directed to a page that looks like this:
+
+{{< pagebreak >}}
+
+![](images/macos_binary_choice.png)
+
+You must now select one of two binary packages to install, depending on the age of your computer. Go to the Apple icon in the top left corner of your Mac and select "About This Mac".
+
+{{< pagebreak >}}
+
+![](images/macos_about_mac.png)
+
+When you click, a small window will appear giving you information about your computer. Notice what is written next to the "Chip:" label:
+
+{{< pagebreak >}}
+
+![](images/macos_M2_info.png) {{< pagebreak >}}
+
+If the chip is M1, M2, or M3, click the `arm64.pkg` installer on the R installation page. If the chip does not say M1, M2, or M3, clicke the `x86_64.pkg` installer.
+
+### Step 4
+
+**Download the Installer**
+
+Download the R installer (\~100 MB). When it has installed, click on it in your "Downloads" folder.
+
+{{< pagebreak >}}
+
+![](images/macos_download.png)
+
+### Step 5
+
+**Run the Installer**
+
+Locate the downloaded file in your computer's Downloads folder and double-click to run the installation wizard. When the installation is complete, you may be prompted to delete the installer file. If you are prompted, press "Yes". If you are not prompted, you can delete the installer .pkg file manually.
+
+{{< pagebreak >}}
+
+![](images/macos_wizard.png)
+:::
+
+{{< pagebreak >}}
+
+# Step 2: Installing RStudio Desktop
+
+**Rstudio** is an integrated development environment (IDE) for R, providing a user-friendly interface for R programming. The installation process is very similar on both Windows and Mac operating systems, so a single set of instructions is provided.
+
+::: callout-tip
+### Important
+
+In order for RStudio desktop to work with R you must have installed R on your computer, see Section A.1. RStudio does not include R when you download and install it.
+:::
+
+::: panel-tabset
+### Step 1
+
+**Download RStudio**
+
+You can download R from the [RStudio website](https://posit.co/download/rstudio-desktop/). Scroll to the bottom of the page, where you'll see a button to install R on the left, and a button to install RStudio on the right. You've already installed R, so ignore the left hand side and click on the "Download and Install RStudio Desktop" button on the right. The RStudio website should automatically detect the operating system you're using and prompt you to download the correct one.
+
+The file will be ~400MB and may take a while to download.
+
+![](images/macos_rstudio_download.png)
+
+### Step 2
+
+**Run the Installer**
+
+Locate the downloaded file in your computer's Downloads folder and double-click to run the setup.
+
+![](images/pic23.png)
+
+### Step 3
+
+**Complete Installation**
+
+Follow the instruction in the installation wizard to complete the installation process.
+
+![](images/pic24.png)
+
+### Step 4
+
+**Configuration**
+
+After installing RStudio, open the application. Navigate to Tools \> Global options to set your preferences.
+
+![](images/pic25.png)
+
+### Step 5
+
+Under the **General** options and the **Basic** tab:
+
+**Workspace**
+
+Uncheck Restore .RData into workspace at startup
+
+Ensure that Never is selected for Save workspace to .RData on exit.
+
+**History**
+
+Uncheck Always save history (even when not saving .RData)
+
+Uncheck Remove duplicate entries in history
+
+![](images/pic26.png)
+:::
+
+# Step 3: Installing R packages
+
+
+A R package is a collection of functions, data, and compiled code in a well-defined format, created to add specific functionality to R.
+
+There are 10,000+ user contributed packages and growing.
+
+There is a set of standard (or base) packages which is considered part of the R source code and automatically available as part of your R installation. Base packages contain the basic functions that allow R to work, and enable standard statistical and graphical functions on data sets.
+
+You can install packages two different ways: using the RStudio graphic interface, or using the RStudio console.
+
+**Required packages to install**:
+For **Principles and Practice of Data Visualization in R**: `tidyverse`, `ggplot2`
+
+Other course requirements coming soon.
+
+## Using the Graphic Interface
+
+::: panel-tabset
+### Step 1
+
+Open RStudio on your computer.
+
+### Step 2
+
+In RStudio, you can install a new package by selecting Tools \> Install packages... ![](images/pic31.png)
+
+### Step 3
+
+Enter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment. ![](images/pic32.png)
+:::
+
+## Using the RStudio Console
+
+::: panel-tabset
+### Step 1
+
+Open RStudio on your computer.
+
+### Step 2
+
+In the "Console" tab (at the bottom left of the screen if using the default settings), type `install.packages("PACKAGE_NAME")`, with the name of the package instead of the letters "PACKAGE_NAME". Don't forget the quotation marks! For example, to install the `tidyverse` package, type `install.packages("tidyverse")`:
+
+![](images/macos_install_packages.png)
+
+### Step 3
+You should see a series of text scrolling down the screen (there might be a lot!), followed by a message saying that "the downloaded binary packages are in [location]". 
+
+:::callout-tip
+There should **not** be any error messages in this process! If you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support.
+::: 
+
+![](images/macos_install_outputs.png)
+
+
+### Step 4
+
+Test the successful installation by "loading" the package into the console.
+
+Type the words `find.package("PACKAGE_NAME")` into the console. If the package installed successfully, you should see a filepath to the location of the package. If the package didn't install successfully, you'll see an error message. Below, you can see an example with a successfully installed package (`tidyverse`) and a package that has not been installed (`fake_package`).
+
+:::callout-tip
+If you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support.
+::: 
+
+![](images/macos_confirm_package.png)
+
+:::

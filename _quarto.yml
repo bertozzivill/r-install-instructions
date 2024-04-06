@@ -3,12 +3,11 @@ project:
   output-dir: docs
 
 website:
-  title: "test-quarto-site"
+  title: "AMMnet Kigali 2024"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: Getting_started_with_R.qmd
+        text: R Installation Instructions
 
 format:
   html:

@@ -1,0 +1,40 @@
+---
+title: "Installing R Packages"
+format:
+  html:
+    smooth-scroll: true
+    toc: true
+    toc-location: left
+    number-sections: false
+    number-depth: 2
+    css: styles.css
+execute:
+  echo: true
+  warning: false
+---
+
+## Installing R packages
+
+::: callout-tip
+### Note
+
+A R package is a collection of functions, data, and compiled code in a well-defined format, created to add specific functionality to R.
+
+There are 10,000+ user contributed packages and growing.
+
+There is a set of standard (or base) packages which is considered part of the R source code and automatically available as part of your R installation. Base packages contain the basic functions that allow R to work, and enable standard statistical and graphical functions on data sets.
+:::
+
+::: panel-tabset
+### Step 1
+
+Open RStudio on your computer
+
+### Step 2
+
+In RStudio, you can install a new package by selecting Tools \> Install packages... ![](images/pic31.png)
+
+### Step 3
+
+Enter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment. ![](images/pic32.png)
+:::
