@@ -1,5 +1,5 @@
 ---
-title: "Before You Arrive: Install R and RStudio"
+title: "Before You Arrive: Install or Update R and RStudio"
 format:
   html:
     smooth-scroll: true

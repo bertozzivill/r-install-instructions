@@ -30,35 +30,35 @@
   {
     "objectID": "r_installation_all.html",
     "href": "r_installation_all.html",
-    "title": "Before You Arrive: Install R and RStudio",
+    "title": "Before You Arrive: Install or Update R and RStudio",
     "section": "",
     "text": "We’re so excited to have you join us in Kigali for AMMNet 2024! If you are registered to attend a the training session, you are required to have the latest versions of R and RStudio downloaded and installed on your laptops before you arrive at the training. Even if you already have R and RStudio installed, we would like you to install it again to ensure that we’re all working on the latest versions of both softwares. Because this software can take some time to download and we cannot guarantee the strength of conference WiFi, we strongly recommend that you complete the installation before arriving at the conference. If you have not installed the software before you arrive at the training, we cannot guarantee that there will be time or capacity to help you install it. Detailed instructions on installing R, RStudio, and any required packages can be found below.\nIf you run into any difficulties, please reach out to info@ammnet.org for assistance. There will also be a technical helpdesk avaliable at the conference, but again, we will not be able to guarantee download speeds at that time.\nThe materials on this page were developed and shared with permission by Gloria Shirima and Amelia Bertozzi-Villa."
   },
   {
     "objectID": "r_installation_all.html#on-windows",
     "href": "r_installation_all.html#on-windows",
-    "title": "Before You Arrive: Install R and RStudio",
+    "title": "Before You Arrive: Install or Update R and RStudio",
     "section": "On Windows",
     "text": "On Windows\n\nStep 1Step 2Step 3Step 4Step 5Step 6\n\n\nDownload R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nChoose Your Operating System\nOnce on the CRAN page, select the operating system Windows. \n\n\n\nSelect binaries for base distribution\n\n\n\n\nDownload the Installer\nDownload the R installer (&lt; 80 MB)\n\n\n\n\nRun the Installer\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard.\n\n\n\n\nComplete Installation\nFollow the instruction in the installation wizard to complete the installation."
   },
   {
     "objectID": "r_installation_all.html#on-macos",
     "href": "r_installation_all.html#on-macos",
-    "title": "Before You Arrive: Install R and RStudio",
+    "title": "Before You Arrive: Install or Update R and RStudio",
     "section": "On MacOS",
     "text": "On MacOS\n\nStep 1Step 2Step 3Step 4Step 5\n\n\nDownload R\nVisit the Comprehensive R Archive Network (CRAN) to download R which is a network of servers around the world that store identical up-to-date versions of code and documentation for R. \n Scroll down the page to locate the mirror that is the closest to your geographic location and click on its URL.\n\n\n\n\n\n\nTip\n\n\n\nSelecting a mirror that is close to you may help speed up the download. You can still use another mirror since the closest geographic location does not always give the best mirror.\n\n\nFor instance, when downloading R from Rwanda, you can select the mirror from South Africa.\n\n\nChoose Your Operating System\nOnce on the CRAN page, select the operating system macOS. \n\n\n\nYou will be directed to a page that looks like this:\n\n\nYou must now select one of two binary packages to install, depending on the age of your computer. Go to the Apple icon in the top left corner of your Mac and select “About This Mac”.\n\n\nWhen you click, a small window will appear giving you information about your computer. Notice what is written next to the “Chip:” label:\n\n \nIf the chip is M1, M2, or M3, click the arm64.pkg installer on the R installation page. If the chip does not say M1, M2, or M3, clicke the x86_64.pkg installer.\n\n\nDownload the Installer\nDownload the R installer (~100 MB). When it has installed, click on it in your “Downloads” folder.\n\n\n\n\nRun the Installer\nLocate the downloaded file in your computer’s Downloads folder and double-click to run the installation wizard. When the installation is complete, you may be prompted to delete the installer file. If you are prompted, press “Yes”. If you are not prompted, you can delete the installer .pkg file manually."
   },
   {
     "objectID": "r_installation_all.html#using-the-graphic-interface",
     "href": "r_installation_all.html#using-the-graphic-interface",
-    "title": "Before You Arrive: Install R and RStudio",
+    "title": "Before You Arrive: Install or Update R and RStudio",
     "section": "Using the Graphic Interface",
     "text": "Using the Graphic Interface\n\nStep 1Step 2Step 3\n\n\nOpen RStudio on your computer.\n\n\nIn RStudio, you can install a new package by selecting Tools &gt; Install packages… \n\n\nEnter the name of the package you want to install, or browse through available packages. Select the desired package(s) and click Install to add them to your R environment."
   },
   {
     "objectID": "r_installation_all.html#using-the-rstudio-console",
     "href": "r_installation_all.html#using-the-rstudio-console",
-    "title": "Before You Arrive: Install R and RStudio",
+    "title": "Before You Arrive: Install or Update R and RStudio",
     "section": "Using the RStudio Console",
     "text": "Using the RStudio Console\n\nStep 1Step 2Step 3Step 4\n\n\nOpen RStudio on your computer.\n\n\nIn the “Console” tab (at the bottom left of the screen if using the default settings), type install.packages(\"PACKAGE_NAME\"), with the name of the package instead of the letters “PACKAGE_NAME”. Don’t forget the quotation marks! For example, to install the tidyverse package, type install.packages(\"tidyverse\"):\n\n\n\nYou should see a series of text scrolling down the screen (there might be a lot!), followed by a message saying that “the downloaded binary packages are in [location]”.\n\n\n\n\n\n\nTip\n\n\n\nThere should not be any error messages in this process! If you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support.\n\n\n\n\n\nTest the successful installation by “loading” the package into the console.\nType the words find.package(\"PACKAGE_NAME\") into the console. If the package installed successfully, you should see a filepath to the location of the package. If the package didn’t install successfully, you’ll see an error message. Below, you can see an example with a successfully installed package (tidyverse) and a package that has not been installed (fake_package).\n\n\n\n\n\n\nTip\n\n\n\nIf you run into errors, try installing via the user interface. If there are still problems, contact the AMMnet team for support."
   },
